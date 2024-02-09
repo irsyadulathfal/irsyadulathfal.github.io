@@ -17663,11 +17663,25 @@ ul.kangismet_recent{list-style:none;margin:0;padding:0;}
 .avatarRound{-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;width:35px;height:35px} 
 .kangismet_recent li span{margin-top:4px;color: #222;display: block;font-size: 12px;line-height: 1.4;} 
 
-
 .card {
     transition: .5s;
 }
-
 .card:hover {
     transform: scale(1.05);
 }
+.kepala-sm{
+	 display: none;
+	 visibility: hidden;
+ }
+ @media screen and (max-width:750px) {
+.kepala-sm{
+	 display: block;
+	 visibility: visible;
+	 margin-top: 0;
+ }
+ .kepala-md{
+	 display: none;
+	 visibility: hidden;
+ }
+}
+ }
